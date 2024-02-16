@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: f5f5dc;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="89.0" layoutY="166.0" text="Username" />
+      <Label layoutX="91.0" layoutY="225.0" text="Password" />
+      <PasswordField layoutX="243.0" layoutY="221.0" prefHeight="25.0" prefWidth="256.0" />
+      <TextField layoutX="243.0" layoutY="162.0" prefHeight="25.0" prefWidth="256.0" />
+      <Button layoutX="446.0" layoutY="286.0" mnemonicParsing="false" text="Sign in" />
+      <Label layoutX="77.0" layoutY="71.0" prefHeight="25.0" prefWidth="123.0" text="Welcome !">
+         <font>
+            <Font name="Inter Regular" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

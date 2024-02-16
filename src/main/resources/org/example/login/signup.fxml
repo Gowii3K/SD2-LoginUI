@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="697.0" prefWidth="654.0" style="-fx-background-color: f5f5dc;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.gitrepodemo.Signup">
+   <children>
+      <Label layoutX="65.0" layoutY="94.0" text="First Name" />
+      <Label layoutX="64.0" layoutY="141.0" text="Last Name" />
+      <Label layoutX="76.0" layoutY="187.0" text="Age" />
+      <Label layoutX="72.0" layoutY="232.0" text="Birthday" />
+      <Label layoutX="72.0" layoutY="281.0" text="Gender" />
+      <Label layoutX="70.0" layoutY="324.0" text="Civil Status" />
+      <Label layoutX="73.0" layoutY="364.0" text="Country" />
+      <Label layoutX="75.0" layoutY="443.0" text="E-mail" />
+      <Label layoutX="78.0" layoutY="487.0" text="Mobile" />
+      <Label layoutX="72.0" layoutY="571.0" text="Username" />
+      <Label layoutX="72.0" layoutY="617.0" text="Password" />
+      <Label layoutX="63.0" layoutY="660.0" text="Confirm Password" />
+      <PasswordField layoutX="266.0" layoutY="656.0" />
+      <PasswordField layoutX="266.0" layoutY="613.0" />
+      <TextField layoutX="266.0" layoutY="567.0" />
+      <TextField layoutX="266.0" layoutY="483.0" />
+      <TextField layoutX="266.0" layoutY="439.0" />
+      <TextField layoutX="263.0" layoutY="90.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField layoutX="263.0" layoutY="137.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField layoutX="263.0" layoutY="183.0" />
+      <TextField layoutX="266.0" layoutY="277.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField layoutX="266.0" layoutY="320.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField layoutX="266.0" layoutY="360.0" prefHeight="26.0" prefWidth="150.0" />
+      <DatePicker layoutX="265.0" layoutY="228.0" prefHeight="26.0" prefWidth="150.0" />
+      <Label layoutX="45.0" layoutY="30.0" prefHeight="35.0" prefWidth="197.0" text="Personal Details">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font></Label>
+      <Button layoutX="506.0" layoutY="593.0" mnemonicParsing="false" text="Clear" textFill="#ff0909" />
+      <Button layoutX="506.0" layoutY="643.0" mnemonicParsing="false" text="Submit" textFill="#406946" />
+      <Label layoutX="37.0" layoutY="397.0" text="Contact Details">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="526.0" text="Login Details">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <BorderPane layoutX="-6.0" layoutY="-8.0" prefHeight="35.0" prefWidth="664.0" style="-fx-background-color: faf0dc;">
+         <effect>
+            <Reflection />
+         </effect></BorderPane>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
